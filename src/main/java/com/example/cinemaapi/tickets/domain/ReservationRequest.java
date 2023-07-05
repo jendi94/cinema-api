@@ -6,6 +6,6 @@ import java.util.List;
 public record ReservationRequest(MovieTheater movieTheater,
                                  LocalDateTime screeningTime,
                                  Movie movie,
-                                 List<Seat> seats) {
+                                 List<SeatRequest> seats) {
 
 }
