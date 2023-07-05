@@ -1,9 +1,11 @@
 package com.example.cinemaapi.tickets.domain;
 
-public class ReservationRequest {
-//    kino
-//    data
-//    godzina
-//    film
-//    miejsce
+import java.time.LocalDateTime;
+import java.util.List;
+
+public record ReservationRequest(MovieTheater movieTheater,
+                                 LocalDateTime screeningTime,
+                                 Movie movie,
+                                 List<Seat> seats) {
+
 }
