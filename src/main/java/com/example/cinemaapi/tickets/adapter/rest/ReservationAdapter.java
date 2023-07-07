@@ -1,5 +1,7 @@
 package com.example.cinemaapi.tickets.adapter.rest;
 
+import com.example.cinemaapi.tickets.adapter.rest.reservation.model.ReservationDto;
+import com.example.cinemaapi.tickets.adapter.rest.reservation.model.ReservationRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

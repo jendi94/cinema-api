@@ -1,4 +1,4 @@
-package com.example.cinemaapi.tickets.adapter.rest;
+package com.example.cinemaapi.tickets.adapter.rest.reservation.model;
 
 import com.example.cinemaapi.tickets.domain.Movie;
 import com.example.cinemaapi.tickets.domain.MovieTheater;

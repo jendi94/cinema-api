@@ -2,5 +2,5 @@ package com.example.cinemaapi.tickets.domain;
 
 import java.util.UUID;
 
-public record ReservationId(UUID reservationId) {
+public record ReservationId(UUID uuid) {
 }

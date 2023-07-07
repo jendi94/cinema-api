@@ -31,8 +31,6 @@ public class Reservations implements ReservationService {
             .forEach(selectedSeats::add));
 
         if (selectedSeats.size() == request.seats().size()) {
-
-
             return Reservation.builder()
                 .reservationId(new ReservationId(UUID.randomUUID()))
                 .movieTheater(movieTheater)
